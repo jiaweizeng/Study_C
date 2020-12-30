@@ -1,3 +1,1 @@
-"D:\software\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\LS.dir/objects.a
-D:\software\mingw64\bin\ar.exe cr CMakeFiles\LS.dir/objects.a @CMakeFiles\LS.dir\objects1.rsp
-D:\software\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\LS.dir/objects.a -Wl,--no-whole-archive  -o LS.exe -Wl,--out-implib,libLS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LS.dir\linklibs.rsp
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/LS.dir/demo2.c.o  -o LS.exe -Wl,--out-implib,libLS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

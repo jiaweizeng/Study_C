@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/LS3.dir/main2.c.o  -o LS3.exe -Wl,--out-implib,libLS3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -8,76 +8,76 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/bala/mine/Study_C/LS/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="E:/bala/mine/Study_C/LS/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="LS">
-				<Option output="E:/bala/mine/Study_C/LS/cmake-build-debug/LS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/bala/mine/Study_C/LS/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS"/>
-					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="LS/fast">
-				<Option output="E:/bala/mine/Study_C/LS/cmake-build-debug/LS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/bala/mine/Study_C/LS/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/software/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS/fast"/>
-					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/bala/mine/Study_C/LS/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/software/mingw64/bin/mingw32-make.exe -f &quot;E:/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LS">
+				<Option output="/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/LS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LS/fast">
+				<Option output="/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/LS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 LS/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/e/bala/mine/Study_C/LS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/bala/mine/Study_C/LS/demo2.c">
+		<Unit filename="/cygdrive/e/bala/mine/Study_C/LS/demo2.c">
 			<Option target="LS"/>
 		</Unit>
-		<Unit filename="E:/bala/mine/Study_C/LS/CMakeLists.txt">
+		<Unit filename="/cygdrive/e/bala/mine/Study_C/LS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LS.dir/demo2.c.obj"
+  "CMakeFiles/LS.dir/demo2.c.o"
   "LS.exe"
-  "LS.exe.manifest"
   "LS.pdb"
   "libLS.dll.a"
 )
