@@ -77,27 +77,27 @@ include CMakeFiles/LS3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LS3.dir/flags.make
 
-CMakeFiles/LS3.dir/main2.c.o: CMakeFiles/LS3.dir/flags.make
-CMakeFiles/LS3.dir/main2.c.o: ../main2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/bala/mine/Study_C/LS3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LS3.dir/main2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LS3.dir/main2.c.o   -c /cygdrive/e/bala/mine/Study_C/LS3/main2.c
+CMakeFiles/LS3.dir/main5.c.o: CMakeFiles/LS3.dir/flags.make
+CMakeFiles/LS3.dir/main5.c.o: ../main5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/bala/mine/Study_C/LS3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/LS3.dir/main5.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/LS3.dir/main5.c.o   -c /cygdrive/e/bala/mine/Study_C/LS3/main5.c
 
-CMakeFiles/LS3.dir/main2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LS3.dir/main2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/e/bala/mine/Study_C/LS3/main2.c > CMakeFiles/LS3.dir/main2.c.i
+CMakeFiles/LS3.dir/main5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LS3.dir/main5.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/e/bala/mine/Study_C/LS3/main5.c > CMakeFiles/LS3.dir/main5.c.i
 
-CMakeFiles/LS3.dir/main2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LS3.dir/main2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/e/bala/mine/Study_C/LS3/main2.c -o CMakeFiles/LS3.dir/main2.c.s
+CMakeFiles/LS3.dir/main5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LS3.dir/main5.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/e/bala/mine/Study_C/LS3/main5.c -o CMakeFiles/LS3.dir/main5.c.s
 
 # Object files for target LS3
 LS3_OBJECTS = \
-"CMakeFiles/LS3.dir/main2.c.o"
+"CMakeFiles/LS3.dir/main5.c.o"
 
 # External object files for target LS3
 LS3_EXTERNAL_OBJECTS =
 
-LS3.exe: CMakeFiles/LS3.dir/main2.c.o
+LS3.exe: CMakeFiles/LS3.dir/main5.c.o
 LS3.exe: CMakeFiles/LS3.dir/build.make
 LS3.exe: CMakeFiles/LS3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/e/bala/mine/Study_C/LS3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable LS3.exe"

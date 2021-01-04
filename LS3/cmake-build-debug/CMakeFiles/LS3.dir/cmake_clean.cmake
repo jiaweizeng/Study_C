@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LS3.dir/main2.c.o"
+  "CMakeFiles/LS3.dir/main5.c.o"
   "LS3.exe"
   "LS3.pdb"
   "libLS3.dll.a"
