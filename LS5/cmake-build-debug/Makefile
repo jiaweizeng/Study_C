@@ -143,32 +143,32 @@ LS5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS5.dir/build.make CMakeFiles/LS5.dir/build
 .PHONY : LS5/fast
 
-main1.o: main1.c.o
+main3.o: main3.c.o
 
-.PHONY : main1.o
+.PHONY : main3.o
 
 # target to build an object file
-main1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS5.dir/build.make CMakeFiles/LS5.dir/main1.c.o
-.PHONY : main1.c.o
+main3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS5.dir/build.make CMakeFiles/LS5.dir/main3.c.o
+.PHONY : main3.c.o
 
-main1.i: main1.c.i
+main3.i: main3.c.i
 
-.PHONY : main1.i
+.PHONY : main3.i
 
 # target to preprocess a source file
-main1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS5.dir/build.make CMakeFiles/LS5.dir/main1.c.i
-.PHONY : main1.c.i
+main3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS5.dir/build.make CMakeFiles/LS5.dir/main3.c.i
+.PHONY : main3.c.i
 
-main1.s: main1.c.s
+main3.s: main3.c.s
 
-.PHONY : main1.s
+.PHONY : main3.s
 
 # target to generate assembly for a file
-main1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS5.dir/build.make CMakeFiles/LS5.dir/main1.c.s
-.PHONY : main1.c.s
+main3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS5.dir/build.make CMakeFiles/LS5.dir/main3.c.s
+.PHONY : main3.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LS5"
-	@echo "... main1.o"
-	@echo "... main1.i"
-	@echo "... main1.s"
+	@echo "... main3.o"
+	@echo "... main3.i"
+	@echo "... main3.s"
 .PHONY : help
 
 
