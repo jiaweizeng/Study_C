@@ -28,7 +28,7 @@ int main1(){
         <<c
         <<endl;
 //
-//cin>>输入
+//cin>>输入   注意cin  cout的箭头是相反的
 
     return 0;
 
