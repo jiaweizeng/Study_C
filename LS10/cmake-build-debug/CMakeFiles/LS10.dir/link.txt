@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/LS10.dir/main.cpp.o  -o LS10.exe -Wl,--out-implib,libLS10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
