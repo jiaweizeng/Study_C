@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/e/bala/mine/Study_C/C1/main3.c">
+		<Unit filename="/cygdrive/e/bala/mine/Study_C/C1/main1.c">
 			<Option target="C1"/>
 		</Unit>
 		<Unit filename="/cygdrive/e/bala/mine/Study_C/C1/CMakeLists.txt">

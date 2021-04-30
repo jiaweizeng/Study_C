@@ -68,10 +68,10 @@ RM = /cygdrive/c/Users/92813/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/bala/mine/Study_C/C1
+CMAKE_SOURCE_DIR = /cygdrive/e/bala/mine/Study_C/LS13
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/bala/mine/Study_C/C1/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/e/bala/mine/Study_C/LS13/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/bala/mine/Study_C/C1/cmake-build-debug/CMakeFiles /cygdrive/e/bala/mine/Study_C/C1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/bala/mine/Study_C/LS13/cmake-build-debug/CMakeFiles /cygdrive/e/bala/mine/Study_C/LS13/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/bala/mine/Study_C/C1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/bala/mine/Study_C/LS13/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named C1
+# Target rules for targets named LS13
 
 # Build rule for target.
-C1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C1
-.PHONY : C1
+LS13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LS13
+.PHONY : LS13
 
 # fast build rule for target.
-C1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C1.dir/build.make CMakeFiles/C1.dir/build
-.PHONY : C1/fast
+LS13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS13.dir/build.make CMakeFiles/LS13.dir/build
+.PHONY : LS13/fast
 
-main1.o: main1.c.o
+main.o: main.cpp.o
 
-.PHONY : main1.o
+.PHONY : main.o
 
 # target to build an object file
-main1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C1.dir/build.make CMakeFiles/C1.dir/main1.c.o
-.PHONY : main1.c.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS13.dir/build.make CMakeFiles/LS13.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-main1.i: main1.c.i
+main.i: main.cpp.i
 
-.PHONY : main1.i
+.PHONY : main.i
 
 # target to preprocess a source file
-main1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C1.dir/build.make CMakeFiles/C1.dir/main1.c.i
-.PHONY : main1.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS13.dir/build.make CMakeFiles/LS13.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main1.s: main1.c.s
+main.s: main.cpp.s
 
-.PHONY : main1.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-main1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C1.dir/build.make CMakeFiles/C1.dir/main1.c.s
-.PHONY : main1.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LS13.dir/build.make CMakeFiles/LS13.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... C1"
-	@echo "... main1.o"
-	@echo "... main1.i"
-	@echo "... main1.s"
+	@echo "... LS13"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

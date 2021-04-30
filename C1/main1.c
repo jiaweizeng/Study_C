@@ -36,7 +36,21 @@ void test01(){
 
 }
 int main() {
-    test01();
+//    test01();
+
+    char a[20]="You_are_a_girl";
+    char *p=a;
+    char **ptr=&p;
+
+    printf("ptr=0x%x\n",ptr);
+    printf("p=%c\n",*p);
+    printf("**ptr=%c \n",**ptr);
+    printf("beafor ptr= 0x%x\n", ptr);
+    ptr++;
+    printf("after ptr= 0x%x\n", ptr);
+//    printf("ptr= %c\n",**ptr);
+    printf("char size=%d",sizeof(char*));
+
     return 0;
 
 
